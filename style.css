@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	height: 5000px;
+	width: 100%;
+}
+.header,.divTwo,.divThree,.divFour,.divFive,.divSix,.divSeven,.divEight,.divNine{
+	height: 11%;
+	width: 100%;
+}
+.header{
+	background-image: linear-gradient(-45deg, #28c2de, #6264ed);
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.special-heading{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+#header-rightSide{
+	width: 32%;
+	height: 80%;
+	position: absolute;
+	background-color: #FFF;
+	right: 9%;
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+}
+.input-blocks{
+	display: block;
+    width: 110%;
+    padding: 15px;
+    margin: 5%;
+    background-color: #f2f2f2;
+    border: 0;
+    border-radius: 5px;
+}
+.divTwo{
+	background-color: #000;
+	position: relative;
+}
+.divThree{
+	background-color: #BBB;
+	position: relative;
+}
+
+.divThree{
+	background-color: #BBB;
+	position: relative;
+}
+.divFour{
+	background-color: #000;
+	position: relative;
+}
+.divFive{
+	background-color: #BBB;
+	position: relative;
+}
+.divSix{
+	background-color: #000;
+	position: relative;
+}
+.divSeven{
+	background-color: #BBB;
+	position: relative;
+}
+.divEight{
+	background-color: #000;
+	position: relative;
+}
+.divNine{
+	background-color: #BBB;
+	position: relative;
+}
+.divTwo:before{
+	content: '';
+	position: absolute;
+	border-bottom: 100px solid #000;
+	border-left: 98.8vw solid transparent;
+	top: -100px;
+
+}
+.divTwo:after{
+	content: '';
+	position: absolute;
+	border-top: 100px solid #000;
+	border-right: 98.9vw solid transparent;
+	bottom: -100px;
+	z-index: 1;
+}
+.divThree:after{
+	content: '';
+	position: absolute;
+	border-top: 100px solid #BBB;
+	border-right: 98.9vw solid transparent;
+	bottom: -100px;
+	z-index: 1;
+}
+.divFour:after{
+	content: '';
+	position: absolute;
+	border-top: 100px solid #000;
+	border-right: 98.9vw solid transparent;
+	bottom: -100px;
+	z-index: 1;
+}
+.divFive:after{
+	content: '';
+	position: absolute;
+	border-top: 100px solid #BBB;
+	border-right: 98.9vw solid transparent;
+	bottom: -100px;
+	z-index: 1;
+}
+.divSix:after{
+	content: '';
+	position: absolute;
+	border-top: 100px solid #000;
+	border-right: 98.9vw solid transparent;
+	bottom: -100px;
+	z-index: 1;
+}
+.divSeven:after{
+	content: '';
+	position: absolute;
+	border-top: 100px solid #BBB;
+	border-right: 98.9vw solid transparent;
+	bottom: -100px;
+	z-index: 1;
+}
+.divEight:after{
+	content: '';
+	position: absolute;
+	border-top: 100px solid #000;
+	border-right: 98.9vw solid transparent;
+	bottom: -100px;
+	z-index: 1;
+}
